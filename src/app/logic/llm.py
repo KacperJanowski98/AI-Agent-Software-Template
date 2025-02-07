@@ -1,6 +1,6 @@
 from langchain_ollama import ChatOllama
 
-from app.models.logic.tools.weather import get_weather
+from tools.weather import get_weather
 
 
 def create_llm(model_name: str = "qwen2.5:14b") -> ChatOllama:
